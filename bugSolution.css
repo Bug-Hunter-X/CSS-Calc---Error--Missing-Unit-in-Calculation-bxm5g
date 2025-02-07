@@ -1,0 +1,10 @@
+/* Corrected CSS */
+#container {
+  width: calc(100% - 10px);
+  /* or width: calc(100% - 1rem); 
+  or any other valid unit*/
+}
+/* Incorrect CSS (Missing unit in the second term):*/
+/*#container {
+  width: calc(100% - 10); /*This is the incorrect usage*/
+/*}*/
